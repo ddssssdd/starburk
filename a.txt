@@ -1,0 +1,1 @@
+D:\limejs\closure\closure/bin/build/closurebuilder.py --root="D:\limejs\helloworld/" --root="D:\limejs\lime/" --root="D:\limejs\box2d/" --root="D:\limejs\closure/" --namespace="helloworld" -o compiled -c D:\limejs\bin/external\compiler.jar -f --define='goog.DEBUG=false' --output_file="helloworld\hw.js"
