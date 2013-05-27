@@ -1,4 +1,7 @@
-#LimeJS
+Star burk 
+A demo game made by limejs
+
+
 
 ##Getting started:
 
