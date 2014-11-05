@@ -23,7 +23,7 @@ sb.Ball.init=function(ball){
 	ball.setFill(pictureUrl);
 	var width = ball.getSize().width;
 	var height = Math.sqrt(3)*width/2;
-	var offset = (sb.Ball.Row %2)?width/2:width;
+	var offset = 200+(sb.Ball.Row %2)?width/2:width;
 	ball.setPosition(sb.Ball.Col*61+offset,sb.Ball.Row*height+height/2);
 }
 

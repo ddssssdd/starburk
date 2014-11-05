@@ -17,10 +17,11 @@ goog.require('lime.animation.MoveTo');
 goog.require('sb.Ball');
 goog.require('sb.PlayScene')
 
-helloworld.WIDTH = 700;
-helloworld.HEIGHT = 768;
+helloworld.WIDTH = 720;
+helloworld.HEIGHT = 1004;
 helloworld.start = function(){
 	var director = new lime.Director(document.body,helloworld.WIDTH,helloworld.HEIGHT);
+	//director.makeMobileWebAppCapable();
 	var scene = new sb.PlayScene();
 	scene.init(4,10);
 	director.replaceScene(scene);
